@@ -1,0 +1,9 @@
+Cliente: João Silva
+Pedido: 10234
+Status: Pago
+Valor: R$ 450,00
+
+Cliente: Maria Souza
+Pedido: 10235
+Status: Pendente
+Valor: R$ 320,00

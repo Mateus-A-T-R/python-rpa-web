@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"32c50f31be281eaf","type":"text","text":"VIABILIDADE","x":-348,"y":-454,"width":148,"height":60},
+		{"id":"2034f526ed07f97f","type":"text","text":"PROCESSO JURIDICO","x":-760,"y":-570,"width":215,"height":60},
+		{"id":"8fc76132f57a353c","type":"text","text":"CONTRATOS","x":-400,"y":-660,"width":152,"height":60},
+		{"id":"49d8575932692da4","type":"text","text":"DEVEDOR CNPJ/CPF","x":-100,"y":-630,"width":130,"height":60}
+	],
+	"edges":[
+		{"id":"8421ef25578d26f1","fromNode":"8fc76132f57a353c","fromSide":"right","toNode":"49d8575932692da4","toSide":"left"}
+	]
+}
