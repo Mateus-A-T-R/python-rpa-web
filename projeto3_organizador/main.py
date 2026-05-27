@@ -33,7 +33,7 @@ for arquivo in arquivos:
             shutil.move(caminho_arquivo, os.path.join(pasta_destino, arquivo))
             # apos realizar tudo isso mostra no terminal a imagem movida para pasta
             print("\n================ IMAGENS ================")
-            print(f"{arquivo} --> movido para --> {pasta_destino}")
+            print(f"{arquivo}  movido para --> {pasta_destino}")
 
 
         # -------------------------------
@@ -50,7 +50,7 @@ for arquivo in arquivos:
             shutil.move(caminho_arquivo, os.path.join(pasta_destino, arquivo))
             # apos realizar tudo isso mostra no terminal o PDF movido para pasta
             print("\n================ PDF ================")
-            print(f"{arquivo} --> movido para --> {pasta_destino}")
+            print(f"{arquivo}  movido para --> {pasta_destino}")
 
         # -------------------------------
         # ORGANIZAR PLANILHAS
@@ -65,7 +65,7 @@ for arquivo in arquivos:
             shutil.move(caminho_arquivo, os.path.join(pasta_destino, arquivo))
             # apos realizar tudo isso mostra no terminal a planilha movida para pasta
             print("\n================ PLANILHAS ================")
-            print(f"{arquivo} --> movido para --> {pasta_destino}")
+            print(f"{arquivo}  movido para --> {pasta_destino}")
 
         # -------------------------------
         # OUTROS ARQUIVOS
@@ -76,5 +76,5 @@ for arquivo in arquivos:
             os.makedirs(pasta_destino, exist_ok=True)
             shutil.move(caminho_arquivo, os.path.join(pasta_destino, arquivo))
             print("\n================ OUTROS ================")
-            print(f"{arquivo} --> movido para --> {pasta_destino}")
+            print(f"{arquivo}  movido para --> {pasta_destino}")
 
